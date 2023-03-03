@@ -2,10 +2,20 @@
   "token": 6,
   "title": "",
   "note": "",
-  "attributes": [
-    {
-      "trait_type": "background",
-      "value": "white"
-    }
-  ]
+  "name": "DB6.json",
+  "path": "DBjsons/DB6.json",
+  "sha": "7346d29387ba72a5da3d597f59450ac84dba6d8b",
+  "size": 137,
+  "url": "https://api.github.com/repos/HaoWeiZeroLin/HaoWeiZeroLin.github.io/contents/DBjsons/DB6.json?ref=master",
+  "html_url": "https://github.com/HaoWeiZeroLin/HaoWeiZeroLin.github.io/blob/master/DBjsons/DB6.json",
+  "git_url": "https://api.github.com/repos/HaoWeiZeroLin/HaoWeiZeroLin.github.io/git/blobs/7346d29387ba72a5da3d597f59450ac84dba6d8b",
+  "download_url": "https://raw.githubusercontent.com/HaoWeiZeroLin/HaoWeiZeroLin.github.io/master/DBjsons/DB6.json",
+  "type": "file",
+  "content": "ewogICJ0b2tlbiI6IDYsCiAgInRpdGxlIjogIiIsCiAgIm5vdGUiOiAiIiwK\nICAiYXR0cmlidXRlcyI6IFsKICAgIHsKICAgICAgInRyYWl0X3R5cGUiOiAi\nYmFja2dyb3VuZCIsCiAgICAgICJ2YWx1ZSI6ICJ3aGl0ZSIKICAgIH0KICBd\nCn0=\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/HaoWeiZeroLin/HaoWeiZeroLin.github.io/contents/DBjsons/DB6.json?ref=master",
+    "git": "https://api.github.com/repos/HaoWeiZeroLin/HaoWeiZeroLin.github.io/git/blobs/7346d29387ba72a5da3d597f59450ac84dba6d8b",
+    "html": "https://github.com/HaoWeiZeroLin/HaoWeiZeroLin.github.io/blob/master/DBjsons/DB6.json"
+  }
 }
