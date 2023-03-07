@@ -1,5 +1,7 @@
 {
-
+  "token": 10,
+  "title": "123",
+  "note": "456",
   "attributes": [
     {
       "trait_type": "background",
