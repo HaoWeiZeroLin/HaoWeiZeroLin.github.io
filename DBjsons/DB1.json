@@ -1,11 +1,16 @@
 {
-  "token": 1,
-  "title": "11",
-  "note": "w",
+  "name": "1n",
+  "description": "1d",
+  "image": "ipfs://QmQdkCTUVBUj3vMJrit5VnCE7gfExBVcceYMyR15coqXCP/1.jpeg",
   "attributes": [
     {
       "trait_type": "background",
       "value": "grass"
     }
-  ]
+    {
+      "trait_type": "animal",
+      "value": "fox"
+    }
+  ],
+  "external_url": "https://raw.githubusercontent.com/HaoWeiZeroLin/HaoWeiZeroLin.github.io/master/DBjsons/DB11.json"
 }
