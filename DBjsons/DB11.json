@@ -1,11 +1,11 @@
 {
-  "token": 11,
-  "title": "CCCCC",
-  "note": "WWWWW",
   "attributes": [
     {
       "trait_type": "background",
-      "value": "white"
+      "value": "yoyo"
+    },
+    {
+      "trait_type": "animal",
+      "value": "kerker"
     }
-  ]
 }
