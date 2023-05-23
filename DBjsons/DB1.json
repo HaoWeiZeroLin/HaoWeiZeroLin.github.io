@@ -2,15 +2,5 @@
   "name": "1n",
   "description": "1d",
   "image": "ipfs://QmUEw2ns2XnwisLhkPFBSqE8hxmtwk3VncXAWimBaShRei",
-  "attributes": [
-    {
-      "trait_type": "background",
-      "value": "grass"
-    },
-    {
-      "trait_type": "animal",
-      "value": "fox"
-    }
-  ],
   "metadata": "https://raw.githubusercontent.com/HaoWeiZeroLin/HaoWeiZeroLin.github.io/master/DBjsons/DB11.json"
 }
