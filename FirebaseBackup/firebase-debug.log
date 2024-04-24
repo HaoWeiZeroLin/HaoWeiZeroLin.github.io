@@ -1,0 +1,250 @@
+[debug] [2023-10-27T04:19:45.243Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T04:19:45.244Z] Command:       /Users/zerolin/.nvm/versions/node/v18.6.0/bin/node /Users/zerolin/.nvm/versions/node/v18.6.0/bin/firebase deploy
+[debug] [2023-10-27T04:19:45.244Z] CLI Version:   12.7.0
+[debug] [2023-10-27T04:19:45.244Z] Platform:      darwin
+[debug] [2023-10-27T04:19:45.245Z] Node Version:  v18.6.0
+[debug] [2023-10-27T04:19:45.249Z] Time:          Fri Oct 27 2023 12:19:45 GMT+0800 (Taipei Standard Time)
+[debug] [2023-10-27T04:19:45.249Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T04:19:45.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T04:19:45.282Z] > authorizing via signed-in user (zero.lin@synthetical.io)
+[debug] [2023-10-27T04:19:45.282Z] [iam] checking project marketplace-z for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-27T04:19:45.283Z] > refreshing access token with scopes: []
+[debug] [2023-10-27T04:19:45.284Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-27T04:19:45.284Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-27T04:19:45.679Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-27T04:19:45.680Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-27T04:19:45.692Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions [none]
+[debug] [2023-10-27T04:19:45.692Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions x-goog-quota-user=projects/marketplace-z
+[debug] [2023-10-27T04:19:45.692Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:19:46.766Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions 200
+[debug] [2023-10-27T04:19:46.766Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:19:46.768Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z [none]
+[debug] [2023-10-27T04:19:47.689Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z 200
+[debug] [2023-10-27T04:19:47.689Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z {"projectId":"marketplace-z","projectNumber":"70736628947","displayName":"marketplace z","name":"projects/marketplace-z","resources":{"hostingSite":"marketplace-z","realtimeDatabaseInstance":"marketplace-z-default-rtdb"},"state":"ACTIVE","etag":"1_dc1002a8-51a6-4245-9dd4-148da03af095"}
+[debug] [2023-10-27T04:19:48.497Z] defaultcredentials: writing to file /Users/zerolin/.config/firebase/zero_lin_synthetical.io_application_default_credentials.json
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info]    Creating an optimized production build ...
+
+[info] Failed to compile.
+
+./components/ShowListedNFT.js
+Module not found: Can't resolve './firebase'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+./components/ShowOwnedNFT.js
+Module not found: Can't resolve './firebase'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2023-10-27T04:19:51.456Z] Error: ENOENT: no such file or directory, open '/Users/zerolin/Solidity/reactWeb/nextjs-web/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-27T04:21:18.077Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T04:21:18.078Z] Command:       /Users/zerolin/.nvm/versions/node/v18.6.0/bin/node /Users/zerolin/.nvm/versions/node/v18.6.0/bin/firebase deploy
+[debug] [2023-10-27T04:21:18.078Z] CLI Version:   12.7.0
+[debug] [2023-10-27T04:21:18.079Z] Platform:      darwin
+[debug] [2023-10-27T04:21:18.079Z] Node Version:  v18.6.0
+[debug] [2023-10-27T04:21:18.084Z] Time:          Fri Oct 27 2023 12:21:18 GMT+0800 (Taipei Standard Time)
+[debug] [2023-10-27T04:21:18.084Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T04:21:18.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T04:21:18.118Z] > authorizing via signed-in user (zero.lin@synthetical.io)
+[debug] [2023-10-27T04:21:18.118Z] [iam] checking project marketplace-z for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-27T04:21:18.120Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions [none]
+[debug] [2023-10-27T04:21:18.120Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions x-goog-quota-user=projects/marketplace-z
+[debug] [2023-10-27T04:21:18.120Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:21:19.238Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions 200
+[debug] [2023-10-27T04:21:19.238Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:21:19.239Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z [none]
+[debug] [2023-10-27T04:21:19.745Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z 200
+[debug] [2023-10-27T04:21:19.752Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z {"projectId":"marketplace-z","projectNumber":"70736628947","displayName":"marketplace z","name":"projects/marketplace-z","resources":{"hostingSite":"marketplace-z","realtimeDatabaseInstance":"marketplace-z-default-rtdb"},"state":"ACTIVE","etag":"1_dc1002a8-51a6-4245-9dd4-148da03af095"}
+[debug] [2023-10-27T04:21:20.537Z] defaultcredentials: writing to file /Users/zerolin/.config/firebase/zero_lin_synthetical.io_application_default_credentials.json
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info]    Creating an optimized production build ...
+
+[info] Failed to compile.
+
+./components/ShowListedNFT.js
+Module not found: Can't resolve './firebase-config'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+./components/ShowOwnedNFT.js
+Module not found: Can't resolve './firebase-config'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+[info] 
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2023-10-27T04:21:23.264Z] Error: ENOENT: no such file or directory, open '/Users/zerolin/Solidity/reactWeb/nextjs-web/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-27T04:29:45.703Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T04:29:45.704Z] Command:       /Users/zerolin/.nvm/versions/node/v18.6.0/bin/node /Users/zerolin/.nvm/versions/node/v18.6.0/bin/firebase deploy
+[debug] [2023-10-27T04:29:45.704Z] CLI Version:   12.7.0
+[debug] [2023-10-27T04:29:45.704Z] Platform:      darwin
+[debug] [2023-10-27T04:29:45.704Z] Node Version:  v18.6.0
+[debug] [2023-10-27T04:29:45.709Z] Time:          Fri Oct 27 2023 12:29:45 GMT+0800 (Taipei Standard Time)
+[debug] [2023-10-27T04:29:45.709Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T04:29:45.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T04:29:45.740Z] > authorizing via signed-in user (zero.lin@synthetical.io)
+[debug] [2023-10-27T04:29:45.740Z] [iam] checking project marketplace-z for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-27T04:29:45.741Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions [none]
+[debug] [2023-10-27T04:29:45.741Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions x-goog-quota-user=projects/marketplace-z
+[debug] [2023-10-27T04:29:45.741Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:29:46.821Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions 200
+[debug] [2023-10-27T04:29:46.821Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:29:46.823Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z [none]
+[debug] [2023-10-27T04:29:47.335Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z 200
+[debug] [2023-10-27T04:29:47.335Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z {"projectId":"marketplace-z","projectNumber":"70736628947","displayName":"marketplace z","name":"projects/marketplace-z","resources":{"hostingSite":"marketplace-z","realtimeDatabaseInstance":"marketplace-z-default-rtdb"},"state":"ACTIVE","etag":"1_dc1002a8-51a6-4245-9dd4-148da03af095"}
+[debug] [2023-10-27T04:29:48.136Z] defaultcredentials: writing to file /Users/zerolin/.config/firebase/zero_lin_synthetical.io_application_default_credentials.json
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info]    Creating an optimized production build ...
+
+[info] Failed to compile.
+
+
+[info] ./components/ShowListedNFT.js
+Module not found: Can't resolve './firebase-config'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+./components/ShowOwnedNFT.js
+Module not found: Can't resolve './firebase-config'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./pages/MarketplacePage.js
+
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2023-10-27T04:29:50.839Z] Error: ENOENT: no such file or directory, open '/Users/zerolin/Solidity/reactWeb/nextjs-web/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-27T04:30:25.988Z] ----------------------------------------------------------------------
+[debug] [2023-10-27T04:30:25.989Z] Command:       /Users/zerolin/.nvm/versions/node/v18.6.0/bin/node /Users/zerolin/.nvm/versions/node/v18.6.0/bin/firebase deploy
+[debug] [2023-10-27T04:30:25.989Z] CLI Version:   12.7.0
+[debug] [2023-10-27T04:30:25.990Z] Platform:      darwin
+[debug] [2023-10-27T04:30:25.990Z] Node Version:  v18.6.0
+[debug] [2023-10-27T04:30:25.994Z] Time:          Fri Oct 27 2023 12:30:25 GMT+0800 (Taipei Standard Time)
+[debug] [2023-10-27T04:30:25.994Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-27T04:30:26.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-27T04:30:26.029Z] > authorizing via signed-in user (zero.lin@synthetical.io)
+[debug] [2023-10-27T04:30:26.030Z] [iam] checking project marketplace-z for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-27T04:30:26.031Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions [none]
+[debug] [2023-10-27T04:30:26.034Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions x-goog-quota-user=projects/marketplace-z
+[debug] [2023-10-27T04:30:26.034Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:30:27.281Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions 200
+[debug] [2023-10-27T04:30:27.281Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/marketplace-z:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-27T04:30:27.283Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z [none]
+[debug] [2023-10-27T04:30:27.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z 200
+[debug] [2023-10-27T04:30:27.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/marketplace-z {"projectId":"marketplace-z","projectNumber":"70736628947","displayName":"marketplace z","name":"projects/marketplace-z","resources":{"hostingSite":"marketplace-z","realtimeDatabaseInstance":"marketplace-z-default-rtdb"},"state":"ACTIVE","etag":"1_dc1002a8-51a6-4245-9dd4-148da03af095"}
+[debug] [2023-10-27T04:30:28.429Z] defaultcredentials: writing to file /Users/zerolin/.config/firebase/zero_lin_synthetical.io_application_default_credentials.json
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info]    Creating an optimized production build ...
+
+[info] Failed to compile.
+
+
+[info] ./firebase-config.js
+Module not found: Can't resolve 'firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/ShowListedNFT.js
+./pages/MarketplacePage.js
+
+./firebase-config.js
+Module not found: Can't resolve 'firebase/analytics'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./components/ShowListedNFT.js
+./pages/MarketplacePage.js
+
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2023-10-27T04:30:31.148Z] Error: ENOENT: no such file or directory, open '/Users/zerolin/Solidity/reactWeb/nextjs-web/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
