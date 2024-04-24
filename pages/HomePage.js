@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Header from '../components/Header';
 import styles from '../styles/Home.module.css';
 import NFTBalance from '../components/NFTs/NFTBalance';
-import TokenBalance from '../components/TokenBalance';
+import TokenBalance from "../components/Tokens/TokenBalance";
 
 export default function HomePage() {
 
