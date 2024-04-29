@@ -12,7 +12,7 @@ export default function Navigation() {
         //
       <Link href="/TokenPage">Token</Link>
         //
-      <Link href="/NFTPage">My NFT with GitHub</Link>
+      <Link href="/NFTPage">My NFT</Link>
         //
       <Link href="/MarketplacePage">NFT details in Firebase</Link>
 
