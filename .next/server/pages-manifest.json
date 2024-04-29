@@ -1,10 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/HomePage": "pages/HomePage.js",
-  "/TokenPage": "pages/TokenPage.js",
-  "/": "pages/index.js",
-  "/NFTPage": "pages/NFTPage.js",
-  "/MarketplacePage": "pages/MarketplacePage.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/HomePage":"pages/HomePage.html","/":"pages/index.html","/TokenPage":"pages/TokenPage.html","/MarketplacePage":"pages/MarketplacePage.html","/NFTPage":"pages/NFTPage.html","/_document":"pages/_document.js","/404":"pages/404.html"}
