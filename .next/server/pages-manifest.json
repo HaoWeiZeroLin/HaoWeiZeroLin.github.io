@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/NFTPage": "pages/NFTPage.js",
   "/HomePage": "pages/HomePage.js",
-  "/TokenPage": "pages/TokenPage.js",
-  "/NFTPage": "pages/NFTPage.js"
+  "/": "pages/index.js"
 }
