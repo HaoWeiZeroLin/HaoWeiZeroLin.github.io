@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/NFTPage": "pages/NFTPage.js",
-  "/HomePage": "pages/HomePage.js",
-  "/": "pages/index.js"
-}
+{"/HomePage":"pages/HomePage.html","/_error":"pages/_error.js","/_app":"pages/_app.js","/MarketplacePage":"pages/MarketplacePage.html","/NFTPage":"pages/NFTPage.html","/TokenPage":"pages/TokenPage.html","/":"pages/index.html","/_document":"pages/_document.js","/404":"pages/404.html"}
